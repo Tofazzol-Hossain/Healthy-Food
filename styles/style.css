@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+    border: 2px solid black;
+}
+
+h1 {
+    line-height: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #787878;
+    margin: 0;
+
+}
+
+.orange {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, tomato, red);
+}
+
+.about-section {
+    display: flex;
+    background-image: url(/images/shapes/7.png);
+}
+
+.half-width {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    margin-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+.half-width h2 {
+    margin-top: 100px
+}
