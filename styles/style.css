@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 section {
@@ -7,9 +8,18 @@ section {
     border: 2px solid black;
 }
 
+.title-section {
+    display: flex;
+}
+
+.title-banner {
+    width: 40%;
+    margin-left: 5%;
+}
+
 h1 {
     line-height: 60px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: #787878;
     margin: 0;
@@ -30,8 +40,11 @@ a {
 }
 
 .about-section {
+    height: 480px;
     display: flex;
     background-image: url(/images/shapes/7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .half-width {
@@ -43,15 +56,28 @@ a {
 }
 
 img {
-    width: 80%;
+    width: 60%;
+    margin-top: 9%;
+    margin-left: 30%;
+
+
 }
 
-p {
-    margin-top: 50px;
-    padding-bottom: 70px;
+.half-width p {
+    margin-top: 5%;
+    padding-bottom: 10%;
 
 }
 
 .half-width h2 {
-    margin-top: 100px
+    margin-top: 20%;
+}
+
+.about-recipie h2{
+    text-align: center;
+}
+
+.about-recipie p{
+    text-align: center;
+    margin: 0;
 }
